@@ -23,7 +23,7 @@ http://www.springframework.org/schema/tx/spring-tx.xsd">
     <!--dataSource-->
     <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close"
           p:driverClassName="com.mysql.jdbc.Driver"
-          p:url="jdbc:mysql://localhost:3306/ykttest"
+          p:url="jdbc:mysql://localhost:3306/shopping"
           p:username="root"
           p:password="123456"/>
     <!--使用DataSource事务管理器-->
