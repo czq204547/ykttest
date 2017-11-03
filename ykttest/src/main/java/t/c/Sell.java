@@ -130,6 +130,9 @@ public class Sell {
 
     @RequestMapping(value = "/",method = RequestMethod.GET)
     public String index(Model model){
+        
+        
+        /*
         User u=(User)model.asMap().get("user");
         List<Content> productList = dataAccess.index();
 
@@ -151,7 +154,11 @@ public class Sell {
             }
         }
         model.addAttribute("productList",productList);
+        */
         return "index";
+        
+    
+        
 
     }
     @RequestMapping(value="/settleAccount",method = RequestMethod.GET)
